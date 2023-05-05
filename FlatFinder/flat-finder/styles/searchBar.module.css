@@ -1,0 +1,50 @@
+#fdm {
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    top: 50px;
+    padding-left: 20px;
+}
+
+#searchBar {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    border-radius: 20px;
+    top: 50px;
+    left: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 500px;
+}
+
+#filters {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    border-radius: 20px;
+    top: 50px;
+    left: 1250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+#slider {
+    position: absolute;
+    font-size: x-large;
+    top: 7px;
+    left: 85px;
+}
+
+#profile {
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    top: 45px;
+    right: 150px;
+}

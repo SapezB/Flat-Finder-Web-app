@@ -1,0 +1,94 @@
+.container{
+    border-radius: 8px;
+    background-color: #eaebed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header {
+    
+    color: #eaebed;
+    border-radius: 20px;
+    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+  }
+
+.img{
+    border-radius: 8px;
+    width: 300px;
+    height: 175px;
+}
+
+.listings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  
+  .listingsColumn {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .listingsColumn:last-child {
+    margin-right: 0;
+  }
+  .infoLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+    background-color:#339476;
+    padding: 5px;
+    border-radius: 8px;
+  }
+
+  .infoLine img{
+    margin-right: 10px;
+  }
+
+  .infoLine h3{
+    margin-right: 10px;
+  }
+
+  .infoLine p {
+    margin-right: 0px;
+  }
+
+  .Btn{
+    margin-bottom:10px;
+    margin-left: 200px;
+  }
+
+
+/* CSS */
+.Btn{
+  background-color: #08b949;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 30px;
+  line-height: 0px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 160px;
+  margin-bottom: 20px;
+}

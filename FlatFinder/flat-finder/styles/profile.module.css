@@ -1,0 +1,212 @@
+.containers {
+  min-width: 1200px;
+  
+}
+.containerToColomn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.containerToRow{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  flex-basis: 70%;
+}
+/* profile section section */
+.profileContainer {
+  width: 80%;
+  height: 35%;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+  position: relative;
+  top: 60px;
+  left: 50px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  float: left;
+  /* min-width: 200px; */
+}
+.userPhoto{
+  position: relative;
+  left: 5%;
+  top: 10%;
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: lightgrey;
+  border-radius: 50%;
+}
+.profileContainer .infoBox{
+  width: 70%;
+  height: 20%;
+  text-align: left;
+  padding-left: 25%;
+  position: relative;
+  top: 30%;
+  left: 15%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.username {
+  font-weight:bolder;
+  font-size: 30px;
+  top: 20px;
+  left: 20px;
+  padding-bottom: 3px;
+}
+
+.jobPosition {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.location {
+  font-weight: normal;
+  font-size: 13.5px;
+}
+
+.contact {
+  font-weight: normal;
+  font-size: 11px;
+  color: rgb(8, 132, 91);
+}
+
+/* users listings section */
+.listingContainer{
+  width: 80%;
+  height: 350px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+  position: relative;
+  top: 80px;
+  left: 50px;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  float: left;
+  min-width: 500px;
+}
+.listingTitle{
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.listingPhoto{
+  width: 90%;
+  height: 300px;
+  min-height: 200px;
+  background-color: lightgrey;
+}
+.listingInfo{
+  width: 40%;
+  height: 20%;
+  text-align: left;
+  padding-left: 0%;
+  position: relative;
+  top: 30%;
+  left: 10%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.location{
+  font-size: 18px;
+  font-weight: bold;
+}
+.otherInfo{
+  font-size: 14px;
+}
+
+/* suggested people to connect with section */
+.connectSuggestContainer{
+  width: 20%;
+  height: 460px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+  position: relative;
+  float: right;
+  top: 60px;
+  right: 60px;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-right: 8%;
+  padding-left: 2%;
+  min-width: 250px;
+  flex-basis: 30%;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.listElement{
+  padding-bottom: 20px;
+}
+.connectSuggestContainer .userPhoto{
+  position: relative;
+  left: 5%;
+  top: 10%;
+  float: left;
+  width: 90px;
+  height: 90px;
+  background-color: lightgrey;
+  border-radius: 50%;
+}
+.connectSuggestContainer .infoBox{
+  width: 50%;
+  height: 10%;
+  text-align: left;
+  padding-left: 25%;
+  padding-top: 2%;
+  position: relative;
+  top: 15%;
+  left: 15%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.connectSuggestContainer .username {
+  font-weight:bolder;
+  font-size: 16px;
+  top: 20px;
+  left: 20px;
+  padding-bottom: 3px;
+}
+
+.connectSuggestContainer .jobPosition {
+  font-weight: normal;
+  font-size: 12.5px;
+}
+
+.button{
+  background-color: rgb(50, 154, 109);
+  color: white;
+  font-size: medium;
+  float: right;
+  border-radius: 50px / 50px;
+  width: 100px;
+  height: 38px;
+  position: relative;
+  top: 5%;
+  left: 15%; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* .containers
+.containerToColomn,
+.containerToRow {
+  flex: 1 1 auto;
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .containers {
+    width: 100%;
+  }
+ .containerToColomn 
+  .containerToRow
+  .containers
+  {
+    flex: 1 1 auto;
+    margin: 10px 0;
+  }
+} */
